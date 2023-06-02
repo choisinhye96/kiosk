@@ -7,9 +7,9 @@ import java.util.Map;
 public class Kiosk {
     public static void main(String[] args) {
         Kiosk kiosk = new Kiosk();
-        kiosk.goKiosk();
+        kiosk.showKiosk();
 
-    public void goKiosk() {
+    public void showKiosk() {
         ArrayList<Menu> menuList = initMenu();
         Map<Menu, ArrayList<Product>>  productMap = initProduct(menuList);
         Screen screen = new Screen(menuList, productMap);

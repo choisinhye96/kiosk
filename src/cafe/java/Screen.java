@@ -59,7 +59,7 @@ public class Screen {
             System.out.println("텐퍼센트 메뉴");
            for(int i = 0; i < menuList.size(); i++){
                Menu menu = menuList.get(i);
-               System.out.println("%d, %-15s / %s\n", (i+1), menu.getName(),menu.getDetail());
+               System.out.println("%d, %s / %s\n", (i+1), menu.getName(),menu.getDetail());
             }
             System.out.println();
 
